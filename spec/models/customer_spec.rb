@@ -10,10 +10,10 @@ RSpec.describe Customer, type: :model do
   end
 
   context '#name' do
-    let(:customer) { Customer.new(name: 'acnase gel') }
+    let(:customer) { Customer.new(name: 'renan carneiro') }
 
     it 'returns name titleized' do
-      expect(customer.name).to eq('Acnase Gel')
+      expect(customer.name).to eq('Renan Carneiro')
     end
   end
 end
